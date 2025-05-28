@@ -1,0 +1,21 @@
+{
+  "name": "ENC DEC HELPER",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint",  "mhutchie.git-graph","GitHub.copilot"], 
+      "settings": {
+        "eslint.format.enable": true,
+        "[javascript]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+        },
+      }
+    }
+  },
+  "initializeCommand": "echo repobasepath=${localWorkspaceFolderBasename} > .devcontainer/.env",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "node"
+}

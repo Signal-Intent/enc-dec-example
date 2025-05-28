@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+*.local
+.env
+.env.*
+!.env.example
+.vscode
+!.vscode/recommended-settings.json
+.eslintcache
+coverage
+yarn-error.log

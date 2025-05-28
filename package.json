@@ -1,0 +1,13 @@
+{
+  "name": "enc-dec-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "eslint": "^9.9.0",
+    "node-jose": "^2.2.0"
+  }
+}
